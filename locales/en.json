@@ -28,6 +28,7 @@
     "videoCard":{
       "videoName": "Video name",
       "videoDetails":"Video details",
+      "deleteVideo":"Delete Video",
       "videoInServer": "Viseo is in server",
       "uploadToServer" : "Upload to server"
     },

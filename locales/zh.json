@@ -28,6 +28,7 @@
     "videoCard":{
       "videoName": "视频名称",
       "videoDetails":"视频详情",
+      "deleteVideo":"删除视频",
       "videoInServer": "视频在服务器中",
       "uploadToServer" : "上传到服务器"
     },

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher1.png",
-        "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher1.png"
-    },
-    {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }

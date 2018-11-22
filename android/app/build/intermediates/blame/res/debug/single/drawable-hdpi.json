@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_light.9.png",
@@ -98,10 +98,6 @@
     {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\node_modules_reactnavigation_src_views_assets_backicon.png",
-        "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\drawable-hdpi\\node_modules_reactnavigation_src_views_assets_backicon.png"
     },
     {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
