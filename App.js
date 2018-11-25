@@ -9,12 +9,12 @@ import Results from './Components/results';
 import Settings from './Components/settings';
 import { strings } from './locales/i18n';
 import I18n from 'react-native-i18n';
+import {Icon} from 'native-base';
 
 import { createDrawerNavigator } from 'react-navigation';
 
-
 export default class App extends React.Component {
-  
+   
   componentWillMount = () =>{
     AsyncStorage.getItem('settings', (err, settings) => {
       if(settings){
@@ -26,10 +26,17 @@ export default class App extends React.Component {
    
   render() {
     RootStack = createDrawerNavigator({
+      Settings: {
+        screen: Settings,
+        navigationOptions: {
+          title:strings('labels.settings'),
+          drawerIcon: <Icon name="settings"/>
+        }
+      },
       Home: {
         screen: Videos,
         navigationOptions: {
-          drawerLabel: strings('labels.videos') 
+          drawerLabel: strings('labels.videos') ,
         }
       },
       Results: {
@@ -42,27 +49,18 @@ export default class App extends React.Component {
         screen: Intro,
         navigationOptions: {
           drawerLabel: strings('labels.intro'),
-          drawerLockMode: "locked-open"
-        }
-      },
-      Settings: {
-        screen: Settings,
-        navigationOptions: {
-          drawerLabel: strings('labels.settings'),
-          drawerLockMode: "locked-open"
         }
       },
       Logout: {
         screen: Login,
         navigationOptions: {
-          drawerLabel: strings('labels.logout')
+          drawerLabel: strings('labels.logout'),
         }
       },
       Splash: {
         screen: Splash,
         navigationOptions: {
           drawerLabel: () => {},
-          drawerLockMode: "locked-open"
         }
       },
       Details: {
@@ -75,7 +73,6 @@ export default class App extends React.Component {
         screen: Login,
         navigationOptions: {
           drawerLabel: () => {},
-          drawerLockMode: "locked-open"
         }
       },
     },

@@ -7,6 +7,8 @@ import VideoCard from "./VideoCard"
 import AddVideo from "./AddVideo"
 import { Container, Header, Button, Icon, Right, Left, Spinner, Body, Content, Text} from 'native-base';
 import { strings } from '../locales/i18n';
+import ActionButton from 'react-native-action-button';
+
 
 export default class Videos extends React.Component {
 
@@ -68,6 +70,7 @@ export default class Videos extends React.Component {
     return (
       <Container>
         <Header>
+          
           <Body style={{alignItems: "center"}}>
             <Text style={{color: "white", fontSize:20}}>{strings('labels.videos')}</Text>
           </Body>
@@ -76,13 +79,10 @@ export default class Videos extends React.Component {
         {this.state.isLoading ?
         <Content>
           <Text style={{justifyContent:"center", alignSelf:"center"}}>{strings('videos.uploadTitle')}</Text>
+          
           <ScrollView>
-            {videos.length == 0 ?
-              <AddVideo addVideo={(item) => this.addVideo(item)}/>
-              :
-              videos.length < 4 ?
-                [videos.map((video, index) => <VideoCard navigation={(item, bla) => this.props.navigation.navigate(item, bla)} video={video} key={index} removeVideo={(item) => this.removeVideo(item)}/>) ,<AddVideo addVideo={(item) => this.addVideo(item)}/>]
-                :
+          
+           {
                 videos.map((video, index) => <VideoCard navigation={(item, bla) => this.props.navigation.navigate(item, bla)} video={video} key={index} removeVideo={(item) => this.removeVideo(item)}/>)
             }
           </ScrollView>
@@ -92,6 +92,8 @@ export default class Videos extends React.Component {
             <Spinner color='blue'/>
             <Text>{strings('videos.loadingMsg')}</Text>
           </Body>}
+
+           { videos.length < 4 && this.state.isLoading &&  <AddVideo addVideo={(item) => this.addVideo(item)}/>} 
       </Container>
     );
   }

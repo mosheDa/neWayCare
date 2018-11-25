@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Button, Icon, Left, Body, Right ,} from 'native-base';
 import ImagePicker from 'react-native-image-picker'
 import { strings } from '../locales/i18n';
+import ActionButton from 'react-native-action-button';
 
 export default class AddVideo extends React.Component {
     selectVideoTapped() {
@@ -32,19 +33,11 @@ export default class AddVideo extends React.Component {
       }
   render() {
     return (
-        <Container style={{height:"100%"}}>
-            <Content >
-            <Card>
-                <CardItem>
-                <Body>
-                <Button transparent style={{height:200, width: 325,}} onPress ={() => this.selectVideoTapped()}>
-                    <Icon name="md-add-circle" style={{left: 75,fontSize: 200}}/>
-                </Button>
-                </Body>
-                </CardItem>
-            </Card>
-            </Content>
-        </Container>
+      
+                <ActionButton
+                buttonColor="rgba(231,76,60,1)"
+                onPress={() => this.selectVideoTapped()}
+              />
     );
   }
 }

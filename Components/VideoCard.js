@@ -37,7 +37,7 @@ export default class VideoCard extends React.Component {
                     :
                     <Left>
                         <Button transparent danger onPress={() => this.props.removeVideo(this.props.video)}>
-                            <Text>{strings("videoCard.deletVideo")}</Text>
+                            <Text>{strings("videoCard.deleteVideo")}</Text>
                             <Icon name="trash"/>
                         </Button>
                     </Left>
