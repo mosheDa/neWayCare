@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\yea\react-native-video\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bd65d465122d4a8f39ae0f4c6db71df2697ec947">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\yea-react-native-video-unspecified_8ef2e6b140325640d0bb41f77c4a05292405a1d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\mdavi\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -18,6 +27,15 @@
         revision="25.0.1"
         sha1="d897bbe1f9907691d689cebde51537059d04d340">
         <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\yea-react-native-auth0-unspecified_137b3b67df1f9c203fb0be6578494c918530e356.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_5b93755cebb0b7f91797b36c57c00f624db6fcfb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_ef020fff1687d8b9e37f5ebd98e3c8bf8992cd0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -54,105 +81,6 @@
         revision="25.0.1"
         sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
         <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_501c3576f33999ef3b4508f29124403d6f344a81.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.yqritc\android-scalablevideoview\1.0.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4394e0421a1e2c0cb691a783a393c192a84697ab">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.yqritc-android-scalablevideoview-1.0.4_2aa6605105ad6ce23bd15ea1d0a92130101a4542.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_0f03a24276c6c2e35ac32042815c111b9bf3790f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_ef06d73a583ecea68ed75ebde9557944e811de36.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_69ca91f246521b24d8950e76a7972658ba8ab54d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_969c6e826801651533af4dea9011696a787b94bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_145fa46293ea2f0604dbde45982d8d82c9949ea5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_9af78649944acb3a76b828fdbf47d2c5715a8040.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e4a9d42c6d45eed4fd52f28dee859884131eae4c">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-23.0.1_6c099a3ece4ac4c645031796389b58f0dd20dec2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\yea\react-native-video\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6596032df71e858f4cfc48a70387fae5927a6eb9">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\yea-react-native-video-unspecified_8ef2e6b140325640d0bb41f77c4a05292405a1d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_5b93755cebb0b7f91797b36c57c00f624db6fcfb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
-        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_ef020fff1687d8b9e37f5ebd98e3c8bf8992cd0a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -192,6 +120,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.yqritc\android-scalablevideoview\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4394e0421a1e2c0cb691a783a393c192a84697ab">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.yqritc-android-scalablevideoview-1.0.4_2aa6605105ad6ce23bd15ea1d0a92130101a4542.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\yea\react-native-image-picker\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -210,12 +147,48 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_0f03a24276c6c2e35ac32042815c111b9bf3790f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_4a9bbacaed98d0b2fe5b84563ad919b2db36c4e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mdavi\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_ef06d73a583ecea68ed75ebde9557944e811de36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mdavi\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_69ca91f246521b24d8950e76a7972658ba8ab54d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_969c6e826801651533af4dea9011696a787b94bb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -237,12 +210,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_145fa46293ea2f0604dbde45982d8d82c9949ea5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\mdavi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
         <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_3aa44383a2e584ad133563c10954200a606a9b6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mdavi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_9af78649944acb3a76b828fdbf47d2c5715a8040.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e4a9d42c6d45eed4fd52f28dee859884131eae4c">
+        <dex dex="C:\Users\mdavi\OneDrive\Desktop\Workspace\New folder\neWayCare\android\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-23.0.1_6c099a3ece4ac4c645031796389b58f0dd20dec2.jar" />
     </item>
 
 </items>

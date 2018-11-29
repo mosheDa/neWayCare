@@ -7,11 +7,12 @@ import VideoCard from "./VideoCard"
 import AddVideo from "./AddVideo"
 import { Container, Header, Button, Icon, Right, Left, Spinner, Body, Content, Text} from 'native-base';
 import { strings } from '../locales/i18n';
-import Modal from "react-native-modal"
+import Modal from "react-native-modal";
+import Video from 'react-native-video';
 
 export default class Videos extends React.Component {
 
-  state = { videos: [] , isLoaded: false, results: false, userData:"a", isModalVisible: false};
+  state = { videos: [] , isLoaded: false, results: false, userData:"a", isModalVisible: false, navigation:this.props.navigation};
 
   componentDidMount() {
     AsyncStorage.getItem('userData', (err, userData) => {
@@ -32,7 +33,8 @@ export default class Videos extends React.Component {
   }
 
   openModal(){
-    this.setState({ isModalVisible: true });
+    videoDetails = {"name":"VID_20181129_201200.mp4","path":"/storage/emulated/0/DCIM/Camera/VID_20181129_201200.mp4","uri":"content://com.google.android.apps.photos.contentprovider/-1/2/content%3A%2F%2Fmedia%2Fexternal%2Fvideo%2Fmedia%2F52/ORIGINAL/NONE/1161781384"}
+    this.setState({videoDetails, isModalVisible: true});
   }
 
   closeModal(){
@@ -64,7 +66,9 @@ export default class Videos extends React.Component {
   }
 
   addVideo(item) {
-    videoName = "Video " + (this.state.videos.length == 0 ? 1 : this.state.videos.length + 1)
+    // videoName = "Video " + (this.state.videos.length == 0 ? 1 : this.state.videos.length + 1)
+    videoName = item.path.substring(item.path.lastIndexOf('/')+1)
+    
     videoDetails = {name: videoName, path: item.path, uri: item.uri}
     this.setState({videoDetails, isModalVisible: true});
     // this.setState(prevState => ({
@@ -73,12 +77,10 @@ export default class Videos extends React.Component {
   }
 
   render() {
-    let {videos, videoDetails, isModalVisible} = this.state
+    let {videos, videoDetails, isModalVisible, navigation} = this.state
 
     return (
-      
       <Container>
-        
         <Header>
           <Body style={{alignItems: "center"}}>
             <Text style={{color: "white", fontSize:20}}>{strings('labels.videos')}</Text>
@@ -93,15 +95,35 @@ export default class Videos extends React.Component {
           
           <Text style={{justifyContent:"center", alignSelf:"center"}}>{strings('videos.uploadTitle')}</Text>
           {videoDetails &&
-          <Modal isVisible={isModalVisible}>
-            <Text>{videoDetails.name}</Text>
+          <Modal backdropColor="white" isVisible={isModalVisible}>
+          
+          <View style={styles.modalContent}>
+          <Video
+          source={{uri: "http://res.cloudinary.com/dtvoiy5lg/video/upload/v1543528755/zjqirsqkvrlptif1dcw5.mp4"}}
+          ref={(ref) => {
+            this.player = ref
+          }}                                      // Store reference
+          onBuffer={this.onBuffer}                // Callback when remote video is buffering
+          onError={this.videoError}               // Callback when video cannot be loaded
+          style={styles.backgroundVideo} />
+              {/* <Text>Hello!</Text>
+            <Text>do you want to upload {videoDetails.name} ?</Text> */}
+                  
+          
 
             <Button onPress={this.closeModal.bind(this)}>
-              <Text>Hide me!</Text>
+              <Text>Cancel</Text>
             </Button>
+            <Button onPress={()=>{
+              navigation.navigate('Details', {video: videoDetails})}
+            }>
+              <Text>upload</Text>
+            </Button>
+            </View>
+
         </Modal>}
           <ScrollView>
-        
+         
           
            {
                 videos.map((video, index) => <VideoCard navigation={(item, bla) => this.props.navigation.navigate(item, bla)} video={video} key={index} removeVideo={(item) => this.removeVideo(item)}/>)
@@ -121,4 +143,19 @@ export default class Videos extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  backgroundVideo: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+  },
+  modalContent: {
+    backgroundColor: "white",
+    padding: 22,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 4,
+    borderColor: "rgba(0, 0, 0, 0.1)"
+  }
 });

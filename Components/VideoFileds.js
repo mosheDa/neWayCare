@@ -119,7 +119,7 @@ export default class Videos extends React.Component {
                   :
                     null
                   }
-                  <Label>{strings("videoFileds.childrenAge")}Children age</Label>
+                  <Label>{strings("videoFileds.childrenAge")}</Label>
                   {this.state.video.url ?
                   <Text>{videoData.age} {videoData.ageKind}</Text>
                   :
