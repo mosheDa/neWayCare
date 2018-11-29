@@ -7,12 +7,11 @@ import VideoCard from "./VideoCard"
 import AddVideo from "./AddVideo"
 import { Container, Header, Button, Icon, Right, Left, Spinner, Body, Content, Text} from 'native-base';
 import { strings } from '../locales/i18n';
-import ActionButton from 'react-native-action-button';
-
+import Modal from "react-native-modal"
 
 export default class Videos extends React.Component {
 
-  state = { videos: [] , isLoaded: false, results: false, userData:"a"};
+  state = { videos: [] , isLoaded: false, results: false, userData:"a", isModalVisible: false};
 
   componentDidMount() {
     AsyncStorage.getItem('userData', (err, userData) => {
@@ -30,6 +29,14 @@ export default class Videos extends React.Component {
         }
       }
     });
+  }
+
+  openModal(){
+    this.setState({ isModalVisible: true });
+  }
+
+  closeModal(){
+    this.setState({ isModalVisible: false });
   }
 
   getVideos() {
@@ -59,18 +66,20 @@ export default class Videos extends React.Component {
   addVideo(item) {
     videoName = "Video " + (this.state.videos.length == 0 ? 1 : this.state.videos.length + 1)
     videoDetails = {name: videoName, path: item.path, uri: item.uri}
-    this.setState(prevState => ({
-      videos: [videoDetails,...prevState.videos]
-    }));
+    this.setState({videoDetails, isModalVisible: true});
+    // this.setState(prevState => ({
+    //   videos: [videoDetails,...prevState.videos]
+    // }));
   }
 
   render() {
-    let {videos} = this.state
+    let {videos, videoDetails, isModalVisible} = this.state
 
     return (
+      
       <Container>
+        
         <Header>
-          
           <Body style={{alignItems: "center"}}>
             <Text style={{color: "white", fontSize:20}}>{strings('labels.videos')}</Text>
           </Body>
@@ -78,9 +87,21 @@ export default class Videos extends React.Component {
         </Header>
         {this.state.isLoading ?
         <Content>
-          <Text style={{justifyContent:"center", alignSelf:"center"}}>{strings('videos.uploadTitle')}</Text>
+          <Button onPress={this.openModal.bind(this)}>
+              <Text>open me!</Text>
+            </Button>
           
+          <Text style={{justifyContent:"center", alignSelf:"center"}}>{strings('videos.uploadTitle')}</Text>
+          {videoDetails &&
+          <Modal isVisible={isModalVisible}>
+            <Text>{videoDetails.name}</Text>
+
+            <Button onPress={this.closeModal.bind(this)}>
+              <Text>Hide me!</Text>
+            </Button>
+        </Modal>}
           <ScrollView>
+        
           
            {
                 videos.map((video, index) => <VideoCard navigation={(item, bla) => this.props.navigation.navigate(item, bla)} video={video} key={index} removeVideo={(item) => this.removeVideo(item)}/>)

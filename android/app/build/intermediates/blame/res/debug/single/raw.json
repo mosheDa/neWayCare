@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_octicons.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_octicons.ttf"
+    },
+    {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_entypo.ttf",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_entypo.ttf"
     },
@@ -8,12 +12,40 @@
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_evilicons.ttf"
     },
     {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_simplelineicons.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_simplelineicons.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_foundation.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_foundation.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_zocial.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_zocial.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_feather.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_feather.ttf"
+    },
+    {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_fontawesome.ttf",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_fontawesome.ttf"
     },
     {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_ionicons.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_ionicons.ttf"
+    },
+    {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_feather.ttf",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_feather.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_fontawesome.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_fontawesome.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_evilicons.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_evilicons.ttf"
     },
     {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_simplelineicons.ttf",
@@ -26,6 +58,10 @@
     {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_materialicons.ttf",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_materialicons.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_materialcommunityicons.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_materialcommunityicons.ttf"
     },
     {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_octicons.ttf",
@@ -42,5 +78,13 @@
     {
         "merged": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_foundation.ttf",
         "source": "C:\\Users\\Moshe Davidesko\\Documents\\Workspace\\uploadApp\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_foundation.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_entypo.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_entypo.ttf"
+    },
+    {
+        "merged": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\node_modules_expo_vectoricons_fonts_materialicons.ttf",
+        "source": "C:\\Users\\mdavi\\OneDrive\\Desktop\\Workspace\\New folder\\neWayCare\\android\\app\\src\\main\\res\\raw\\node_modules_expo_vectoricons_fonts_materialicons.ttf"
     }
 ]

@@ -33,11 +33,10 @@ export default class AddVideo extends React.Component {
       }
   render() {
     return (
-      
-                <ActionButton
-                buttonColor="rgba(231,76,60,1)"
-                onPress={() => this.selectVideoTapped()}
-              />
+      <ActionButton
+      buttonColor="rgba(231,76,60,1)"
+      onPress={() => this.selectVideoTapped()}
+    />
     );
   }
 }
